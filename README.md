@@ -25,7 +25,7 @@ npm i expert-json
 ```
 const {Expert} = require('expert-json');
 const go = new Expert("./db/log.json");
-function getData(){
+async function getData(){
    var limit = 5;
    var page = 1;
    var index = (page-1)*limit;
