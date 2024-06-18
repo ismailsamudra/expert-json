@@ -39,7 +39,7 @@ await go.get();
 await go.get(["status",true],1,"search value");
 ```
 - WHERE
-<br> use first await go.get();
+<br> use after await go.get();
 ```
 go.where([["status",true]]);
 ```
@@ -62,25 +62,25 @@ go.where([["status","<",100]]);
 go.where([["status","<=",100]]);
 ```
 - LIMIT
-* use first await go.get();
+<br> use after await go.get();
 ```
 go.limit(10);
 ```
 - ORDERBY
-** use first await go.get();
+<br> use after await go.get();
 ```
 go.orderBy("id","DESC");
 ```
 - OFFSET
-### use first await go.get();
-#### // var limit = 10;
-// var page = 1;
-// var index = (page-1)*limit;
+<br> use after await go.get();
+<br> // var limit = 10;
+<br> // var page = 1;
+<br> // var index = (page-1)*limit;
 ```
 go.offset(index,limit);
 ```
 - LIKE / REGEX
-use first await go.get();
+<br> use after await go.get();
 ```
 go.regex("search value");
 ```
