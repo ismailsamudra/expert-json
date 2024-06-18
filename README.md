@@ -39,7 +39,7 @@ await go.get();
 await go.get(["status",true],1,"search value");
 ```
 - WHERE
-use first await go.get();
+<br> use first await go.get();
 ```
 go.where([["status",true]]);
 ```
