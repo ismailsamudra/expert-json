@@ -1,7 +1,7 @@
 <div align='center'>
    <img width=80px src='https://github.com/ismailsamudra/expert-json/assets/67509798/1719ed9e-1bb8-4b75-906c-ed92296fdeaf'>
  <h3>
-    Expert Json @v.1.0.2
+    Expert Json @v.1.0.3
  </h3>
 </div>
 
@@ -126,12 +126,36 @@ xFile("./dir1/dir2/log.txt");
 ```
 - DELETE FILE OR DIR dinamis link
 ```
-xFile("./dir1/dir2/log.txt","DELETE");
+dFile("./dir1/dir2/log.txt");
 ```
 - CEK STRING IS NUMBER OR NOT
 ```
 return isNum("123");
 ```
+
+## RANDOM ID 
+- INISIASI
+```
+Use const {Expert,ExpertDb,xFile,dFile,isNum,randomId} = require('expert-json');
+```
+- CODE :
+<br> number = only number
+<br> A__    = only Huruf Besar
+<br> a__    = only Huruf kecil
+<br> Aa_    = Huruf Besar & huruf kecil
+<br> An_    = Huruf Besar & number
+<br> an_    = Huruf kecil & number
+<br> Aan    = Huruf Besar , huruf kecil & number
+
+- RELASI
+<br> [CODE],[Lenght (jumlah huruf)]
+
+- CODE USE
+```
+var id = randomId("Aan,8");
+```
+- EXAMPLE OUTPUT
+<br> "// GHysx6r7"
 
 ## EXAMPLE CODE GET DATA
 ```
