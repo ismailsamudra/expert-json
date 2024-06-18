@@ -21,6 +21,20 @@ npm i expert-json
 - perintah di desain hampir sama dengan query ke MYSQL hingga mempermudah kita
 - untuk mengelolah data JSON apabila terbiasa dengan query MYSQL
 
+## EXAMPLE CODE
+```
+const {Expert} = require('expert-json');
+const go = new Expert("./db/log.json");
+function getData(){
+   var limit = 5;
+   var page = 1;
+   var index = (page-1)*limit;
+   await go.get();
+   go.orderBy("id","DESC");
+   return go.offset(index,limit);
+}
+```
+
 ## CARA PAKAI
 - INISIASI CRUD
 
