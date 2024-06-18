@@ -1,4 +1,6 @@
-# JsonFlexDB Change Log
+# Expert Json @v.1.0.1
+
+``npm i expert-json``
 
 All notable changes to this project will be documented in this file.
 
