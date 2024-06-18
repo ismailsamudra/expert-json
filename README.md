@@ -50,16 +50,16 @@ go.where(["status","=",true]);
 go.where(["status","!=",true]);
 ```
 ```
-go.where(["status",">",100]);
+go.where(["num",">",100]);
 ```
 ```
-go.where(["status",">=",100]);
+go.where(["num",">=",100]);
 ```
 ```
-go.where(["status","<",100]);
+go.where(["num","<",100]);
 ```
 ```
-go.where(["status","<=",100]);
+go.where(["num","<=",100]);
 ```
 - LIMIT
 <br> use after await go.get();
