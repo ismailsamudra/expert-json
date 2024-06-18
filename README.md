@@ -1,8 +1,13 @@
-# Expert Json @v.1.0.1
+<div align='center'>
+  <img width=50px src='.github/logo.png?raw=true](https://github.com/ismailsamudra/expert-json/assets/67509798/1719ed9e-1bb8-4b75-906c-ed92296fdeaf'>
+  <h2>Expert Json @v.1.0.1</h2>
+</div>
 
-Instal depenency Code NPM :
-```npm i expert-json```
-
+Instal depenency NPM :
+```
+npm i expert-json
+```
+NPM URL 
 
 ## [2.1.0] - 2024-03-25
 
