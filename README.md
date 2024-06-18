@@ -1,5 +1,5 @@
 <div align='center'>
-  <img width=50px src='https://github.com/ismailsamudra/expert-json/assets/67509798/1719ed9e-1bb8-4b75-906c-ed92296fdeaf
+  <img width=50px src='https://github.com/ismailsamudra/expert-json/assets/67509798/1719ed9e-1bb8-4b75-906c-ed92296fdeaf'>
   <h2>Expert Json @v.1.0.1</h2>
 </div>
 
