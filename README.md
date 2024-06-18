@@ -50,16 +50,16 @@ go.where([["status","=",true]]);
 go.where([["status","!=",true]]);
 ```
 ```
-go.where([["status",">",true]]);
+go.where([["status",">",100]]);
 ```
 ```
-go.where([["status",">=",true]]);
+go.where([["status",">=",100]]);
 ```
 ```
-go.where([["status","<",true]]);
+go.where([["status","<",100]]);
 ```
 ```
-go.where([["status","<=",true]]);
+go.where([["status","<=",100]]);
 ```
 - LIMIT
 use first await go.get();
@@ -67,7 +67,7 @@ use first await go.get();
 go.limit(10);
 ```
 - ORDERBY
-use first await go.get();
+-- use first await go.get();
 ```
 go.orderBy("id","DESC");
 ```
