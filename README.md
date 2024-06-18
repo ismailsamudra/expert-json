@@ -21,6 +21,8 @@ npm i expert-json
 - perintah di desain hampir sama dengan query ke MYSQL hingga mempermudah kita
 - untuk mengelolah data JSON apabila terbiasa dengan query MYSQL
 
+<hr>
+
 ## CARA PAKAI
 - INISIASI CRUD
 
