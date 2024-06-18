@@ -98,4 +98,25 @@ go.offset(index,limit);
 ```
 go.regex("search value");
 ```
+## ASYNC FUNCTION CRUD
+- FIND
+```
+await go.find({id:1});
+```
+- FIND-ONE
+```
+await go.findOne({id:1});
+```
+- INSERT
+```
+await go.insert({name:"ismail samudra"});
+```
+- UPDATE
+```
+await go.update({id:1},{name:"Ubaid Fawaz Fatih"});
+```
+- REMOVE / DELETE
+```
+await go.remove({id:1});
+```
   
