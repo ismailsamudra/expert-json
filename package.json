@@ -1,0 +1,25 @@
+{
+  "name": "@ismailsamudra/expert-json",
+  "version": "1.0.0",
+  "description": "easy crud json db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailsamudra/expert-json.git"
+  },
+  "keywords": [
+    "server",
+    "json",
+    "easy",
+    "crud"
+  ],
+  "author": "Ismail Samudra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ismailsamudra/expert-json/issues"
+  },
+  "homepage": "https://github.com/ismailsamudra/expert-json#readme"
+}
