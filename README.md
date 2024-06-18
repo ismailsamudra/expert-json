@@ -38,7 +38,7 @@ async function getData(){
 ```
 const {Expert} = require('expert-json');
 const go = new Expert("./db/log.json");
-var document = {name:"Ismail Samudra",level:"develope"};
+// var document = {name:"Ismail Samudra",level:"develope"};
 async function insert(document){
    return await go.insert(document);
 }
