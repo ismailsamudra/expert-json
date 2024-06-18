@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ismailsamudra/expert-json/issues"
   },
-  "homepage": "https://github.com/ismailsamudra/expert-json#readme"
+   "homepage": "https://github.com/ismailsamudra/expert-json#readme",
+  "publishConfig": {
+      "@ubaidfawaz18:registry": "https://npm.pkg.github.com"
+   }
 }
