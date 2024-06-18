@@ -1,7 +1,7 @@
 <div align='center'>
  <h3>
-   <img width=50px src='https://github.com/ismailsamudra/expert-json/assets/67509798/1719ed9e-1bb8-4b75-906c-ed92296fdeaf'>
-    Expert Json @v.1.0.1
+   <img width=80px src='https://github.com/ismailsamudra/expert-json/assets/67509798/1719ed9e-1bb8-4b75-906c-ed92296fdeaf'>
+    Expert Json @v.1.0.1 <br><br>
  </h3>
 </div>
 
