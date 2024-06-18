@@ -183,5 +183,10 @@ async function insert(document){
 }
 ```
 
+<hr>
+
+BY : [ISMAIL SAMUDRA](https://facebook.com/ismailsamudra86)
+DONASI : [SAWERIA](https://saweria.co/ismailsamudra)
+
 
   
