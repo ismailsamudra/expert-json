@@ -185,8 +185,8 @@ async function insert(document){
 
 <hr>
 
-BY : [ISMAIL SAMUDRA](https://facebook.com/ismailsamudra86)
-DONASI : [SAWERIA](https://saweria.co/ismailsamudra)
+BY : [ISMAIL SAMUDRA](https://facebook.com/ismailsamudra86) <br>
+DONASI : <a href="https://saweria.co/ismailsamudra" target="_blank">SAWERIA</a>
 
 
   
