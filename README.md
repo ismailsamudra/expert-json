@@ -149,13 +149,13 @@ Use const {Expert,ExpertDb,xFile,dFile,isNum,randomId} = require('expert-json');
 <br> Aan    = Huruf Besar , huruf kecil & number
 
 - RELASI
-<br> [CODE],[Lenght (jumlah huruf)]
+<br> [ CODE ],[ Length (jumlah huruf) ]
 
 - CODE USE
 ```
 var id = randomId("Aan,8");
 ```
-- EXAMPLE OUTPUT
+- EXAMPLE OUTPUT RANDOM ID
 <br> "// GHysx6r7"
 
 ## EXAMPLE CODE GET DATA
