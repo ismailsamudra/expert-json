@@ -1,7 +1,7 @@
 <div align='center'>
    <img width=80px src='https://github.com/ismailsamudra/expert-json/assets/67509798/1719ed9e-1bb8-4b75-906c-ed92296fdeaf'>
  <h3>
-    Expert Json @v.1.0.1
+    Expert Json @v.1.0.2
  </h3>
 </div>
 
@@ -21,3 +21,12 @@ npm i expert-json
 - perintah di desain hampir sama dengan query ke MYSQL hingga mempermudah kita
 - untuk mengelolah data JSON apabila terbiasa dengan query MYSQL
 
+## CARA PAKAI
+- INISIASI 
+
+```
+const {Expert,ExpertDb,xFile,dFile,isNum} = require('@ismailsamudra/expert-json');
+```
+```
+const go = new Expert("./db/log.json");
+```
