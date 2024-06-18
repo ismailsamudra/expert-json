@@ -153,7 +153,7 @@ Use const {Expert,ExpertDb,xFile,dFile,isNum,randomId} = require('expert-json');
 
 - CODE USE
 ```
-var id = randomId("Aan,8");
+var id = randomId("Aan",8);
 ```
 - EXAMPLE OUTPUT RANDOM ID
 <br> "// GHysx6r7"
