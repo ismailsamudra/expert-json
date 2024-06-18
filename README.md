@@ -127,4 +127,31 @@ await go.update({id:1},{name:"Ubaid Fawaz Fatih"});
 ```
 await go.remove({id:1});
 ```
+## OTHER FUNCTION
+- INISIASI
+```
+Use const {Expert,ExpertDb,xFile,dFile,isNum} = require('expert-json');
+```
+- CREATE FILE DB JSON
+```
+ExpertDb("dir/jsonName");
+```
+- CREATE FILE OR DIR dinamis link
+<br> ONLY DIR
+```
+xFile("./dir1/dir2");
+```
+<br> DINAMIS FILE
+```
+xFile("./dir1/dir2/log.txt");
+```
+- DELETE FILE OR DIR dinamis link
+```
+xFile("./dir1/dir2/log.txt","DELETE");
+```
+- CEK STRING IS NUMBER OR NOT
+```
+return isNum("123");
+```
+
   
