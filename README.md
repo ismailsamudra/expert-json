@@ -129,8 +129,9 @@ xFile("./dir1/dir2/log.txt");
 dFile("./dir1/dir2/log.txt");
 ```
 - CEK STRING IS NUMBER OR NOT
+<br> output : true/false
 ```
-return isNum("123");
+var cek = isNum("123");
 ```
 
 ## RANDOM ID 
