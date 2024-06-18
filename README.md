@@ -62,18 +62,18 @@ go.where([["status","<",100]]);
 go.where([["status","<=",100]]);
 ```
 - LIMIT
-use first await go.get();
+* use first await go.get();
 ```
 go.limit(10);
 ```
 - ORDERBY
--- use first await go.get();
+** use first await go.get();
 ```
 go.orderBy("id","DESC");
 ```
 - OFFSET
-use first await go.get();
-// var limit = 10;
+### use first await go.get();
+#### // var limit = 10;
 // var page = 1;
 // var index = (page-1)*limit;
 ```
