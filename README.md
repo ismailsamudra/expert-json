@@ -1,11 +1,11 @@
 <div align='center'>
- <h3>
    <img width=80px src='https://github.com/ismailsamudra/expert-json/assets/67509798/1719ed9e-1bb8-4b75-906c-ed92296fdeaf'>
-    Expert Json @v.1.0.1 <br><br>
+ <h3>
+    Expert Json @v.1.0.1
  </h3>
 </div>
 
-Instal depenency NPM :
+Instal dependency NPM :
 ```
 npm i expert-json
 ```
