@@ -30,12 +30,58 @@ const {Expert} = require('expert-json');
 ```
 const go = new Expert("./db/log.json");
 ```
-- GET DATA ASYNC
+- GET ALL DATA ASYNC
 ```
 await go.get();
 ```
 - GET DATA PARSING ASYNC [where,limit,LIKE]
 ```
-await go.get(["status",true],1,"search");
+await go.get(["status",true],1,"search value");
+```
+- WHERE
+use first await go.get();
+```
+go.where([["status",true]]);
+```
+```
+go.where([["status","=",true]]);
+```
+```
+go.where([["status","!=",true]]);
+```
+```
+go.where([["status",">",true]]);
+```
+```
+go.where([["status",">=",true]]);
+```
+```
+go.where([["status","<",true]]);
+```
+```
+go.where([["status","<=",true]]);
+```
+- LIMIT
+use first await go.get();
+```
+go.limit(10);
+```
+- ORDERBY
+use first await go.get();
+```
+go.orderBy("id","DESC");
+```
+- OFFSET
+use first await go.get();
+// var limit = 10;
+// var page = 1;
+// var index = (page-1)*limit;
+```
+go.offset(index,limit);
+```
+- LIKE / REGEX
+use first await go.get();
+```
+go.regex("search value");
 ```
   
