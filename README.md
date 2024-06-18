@@ -41,25 +41,25 @@ await go.get(["status",true],1,"search value");
 - WHERE
 <br> use after await go.get();
 ```
-go.where([["status",true]]);
+go.where(["status",true]);
 ```
 ```
-go.where([["status","=",true]]);
+go.where(["status","=",true]);
 ```
 ```
-go.where([["status","!=",true]]);
+go.where(["status","!=",true]);
 ```
 ```
-go.where([["status",">",100]]);
+go.where(["status",">",100]);
 ```
 ```
-go.where([["status",">=",100]]);
+go.where(["status",">=",100]);
 ```
 ```
-go.where([["status","<",100]]);
+go.where(["status","<",100]);
 ```
 ```
-go.where([["status","<=",100]]);
+go.where(["status","<=",100]);
 ```
 - LIMIT
 <br> use after await go.get();
