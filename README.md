@@ -5,14 +5,17 @@
  </h3>
 </div>
 
-## dependency
+<hr>
+
+## Dependency
 - NPM URL : [https://www.npmjs.com/package/expert-json](https://www.npmjs.com/package/expert-json)
--Instal dependency NPM :
+- Instal dependency NPM :
 ```
 npm i expert-json
 ```
 
 <hr>
+
 ## KETERANGAN.
 - Expert Json adalah Librari basis nodejs di peruntukkan untuk Crud query Database dalam bentuk JSON file
 - perintah di desain hampir sama dengan query ke MYSQL hingga mempermudah kita
