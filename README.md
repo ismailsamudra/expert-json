@@ -137,11 +137,12 @@ Use const {Expert,ExpertDb,xFile,dFile,isNum} = require('expert-json');
 ExpertDb("dir/jsonName");
 ```
 - CREATE FILE OR DIR dinamis link
-<br> ONLY DIR
+  
+<br><small> ONLY DIR </small>
 ```
 xFile("./dir1/dir2");
 ```
-<br> DINAMIS FILE
+<br><small> DINAMIS FILE </small>
 ```
 xFile("./dir1/dir2/log.txt");
 ```
