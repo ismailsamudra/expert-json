@@ -95,7 +95,7 @@ await go.findOne({id:1});
 ```
 - INSERT
 ```
-await go.insert({name:"ismail samudra"});
+await go.insert({id:1,name:"ismail samudra"});
 ```
 - UPDATE
 ```
