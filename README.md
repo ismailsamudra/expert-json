@@ -21,29 +21,6 @@ npm i expert-json
 - perintah di desain hampir sama dengan query ke MYSQL hingga mempermudah kita
 - untuk mengelolah data JSON apabila terbiasa dengan query MYSQL
 
-## EXAMPLE CODE GET DATA
-```
-const {Expert} = require('expert-json');
-const go = new Expert("./db/log.json");
-async function getData(){
-   var limit = 5;
-   var page = 1;
-   var index = (page-1)*limit;
-   await go.get();
-   go.orderBy("id","DESC");
-   return go.offset(index,limit);
-}
-```
-## EXAMPLE CODE INSERT DATA
-```
-const {Expert} = require('expert-json');
-const go = new Expert("./db/log.json");
-// var document = {name:"Ismail Samudra",level:"develope"};
-async function insert(document){
-   return await go.insert(document);
-}
-```
-
 ## CARA PAKAI
 - INISIASI CRUD
 
@@ -155,5 +132,29 @@ xFile("./dir1/dir2/log.txt","DELETE");
 ```
 return isNum("123");
 ```
+
+## EXAMPLE CODE GET DATA
+```
+const {Expert} = require('expert-json');
+const go = new Expert("./db/log.json");
+async function getData(){
+   var limit = 5;
+   var page = 1;
+   var index = (page-1)*limit;
+   await go.get();
+   go.orderBy("id","DESC");
+   return go.offset(index,limit);
+}
+```
+## EXAMPLE CODE INSERT DATA
+```
+const {Expert} = require('expert-json');
+const go = new Expert("./db/log.json");
+// var document = {name:"Ismail Samudra",level:"develope"};
+async function insert(document){
+   return await go.insert(document);
+}
+```
+
 
   
