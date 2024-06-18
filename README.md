@@ -22,11 +22,20 @@ npm i expert-json
 - untuk mengelolah data JSON apabila terbiasa dengan query MYSQL
 
 ## CARA PAKAI
-- INISIASI 
+- INISIASI CRUD
 
 ```
-const {Expert,ExpertDb,xFile,dFile,isNum} = require('@ismailsamudra/expert-json');
+const {Expert} = require('expert-json');
 ```
 ```
 const go = new Expert("./db/log.json");
 ```
+- GET DATA ASYNC
+```
+await go.get();
+```
+- GET DATA PARSING ASYNC [where,limit,LIKE]
+```
+await go.get(["status",true],1,"search");
+```
+  
