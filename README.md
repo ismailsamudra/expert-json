@@ -14,5 +14,5 @@ npm i expert-json
 ## KETERANGAN.
 - Expert Json adalah Librari basis nodejs di peruntukkan untuk Crud query Database dalam bentuk JSON file
 - perintah di desain hampir sama dengan query ke MYSQL hingga mempermudah kita
-- untuk mengelola data JSON apabila terbiasa dengan query MYSQL
+- untuk mengelolah data JSON apabila terbiasa dengan query MYSQL
 
